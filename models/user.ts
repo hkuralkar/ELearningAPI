@@ -7,7 +7,7 @@ const bcrypt = require("bcryptjs")
 }))
 
 @Table
-export class user extends Model{
+class user extends Model{
 
 
 
@@ -45,3 +45,7 @@ static encryptPassword(instance: user){
 
 }
 
+
+
+
+export default user
